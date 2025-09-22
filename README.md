@@ -81,11 +81,6 @@ Deepfake_detection_using_deep_learning
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-#### 6.1 Offline Contributors
-   1. Jay Patel
-   2. Hitendra Patil
-   3. Abhishek Patange
    
 ## 7. License
 
