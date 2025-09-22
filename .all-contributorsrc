@@ -1,0 +1,35 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "sarthak-jha",
+      "name": "Sarthak Jha",
+      "avatar_url": "",
+      "profile": "",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "vaibhav-tyagi",
+      "name": "Vaibhav Tyagi",
+      "avatar_url": "",
+      "profile": "",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "Deepfake_detection_using_deep_learning",
+  "projectOwner": "abhijitjadhav1998"
+}

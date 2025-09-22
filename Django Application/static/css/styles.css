@@ -1,0 +1,143 @@
+body {
+    height: 100%;
+}
+.bg {
+    /* The image used */
+    background-image: url("/static/images/background1.png");
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+section{
+    padding-top: 60px;
+}
+
+.width-300{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0px 9px 2px #ccc;
+}
+
+.width-400{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    box-shadow: 0 0px 9px 2px #ccc;
+}
+
+.width-500{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0px 9px 2px #ccc;
+}
+
+#videos{
+    display: none;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.preprocess {
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+#preprocessed_images {
+  white-space: nowrap;
+  width: auto;
+  height: 250px;
+  padding: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  box-shadow: 0 0px 9px 2px #ccc;
+}
+
+#faces_images {
+    white-space: nowrap;
+    width: auto;
+    height: 150px;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-shadow: 0 0px 9px 2px #ccc;
+}
+
+.faces {
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+#heatmap_images{
+    white-space: nowrap;
+    width: auto;
+    height: 200px;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    box-shadow: 0 0px 9px 2px #ccc;
+    margin-bottom: 20px;
+}
+
+.heat-map {
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+/* span.spinner-border {
+    display: none;
+} */
+
+/* Enhanced Buttons */
+.btn-enhanced {
+    position: relative;
+    display: inline-block;
+    transform: translateZ(0);
+    transition: all 0.2s ease-in-out;
+    border-radius: 8px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    letter-spacing: .3px;
+}
+
+.btn-enhanced:hover,
+.btn-enhanced:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
+}
+
+.btn-enhanced:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
+/* Variant polish for success button */
+.btn-success.btn-enhanced {
+    background-image: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    border: 0;
+}
+
+.btn-success.btn-enhanced:hover,
+.btn-success.btn-enhanced:focus {
+    filter: brightness(1.03);
+}
+
+.btn-block.btn-enhanced {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
